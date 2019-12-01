@@ -17,3 +17,5 @@ Complete cover letter for this project you can find
 ## Our team
 We are a team of enthusiasts from Russia.
 We love technology and want to make the world a bit cleaner.
+
+![Our team](assets/team.png)
