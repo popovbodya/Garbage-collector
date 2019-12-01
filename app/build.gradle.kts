@@ -10,7 +10,7 @@ android {
     compileSdkVersion(AndroidVersions.compileSdk)
 
     defaultConfig {
-        applicationId = "ru.popov.bodya.subs"
+        applicationId = "ru.popov.bodya.garbagecollector"
         minSdkVersion(AndroidVersions.minSdk)
         targetSdkVersion(AndroidVersions.targetSdk)
         versionCode = AndroidVersions.appVersionCode
