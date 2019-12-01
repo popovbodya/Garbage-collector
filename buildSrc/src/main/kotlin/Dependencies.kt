@@ -13,6 +13,7 @@ object AndroidVersions {
 object PluginVersions {
     const val androidPlugin = "3.5.2"
     const val kotlinPlugin = "1.3.50"
+    const val googleServices = "4.3.2"
     const val dexcountPlugin = "1.0.0"
 }
 
@@ -25,6 +26,7 @@ object LibsVersions {
     const val rxJava = "2.2.15"
     const val rxAndroid = "2.1.1"
     const val rxKotlin = "2.4.0"
+    const val firebaseAnalytics = "17.2.1"
     const val mockk = "1.9"
     const val assertK = "0.12"
 }
@@ -32,6 +34,7 @@ object LibsVersions {
 object GradlePlugins {
     const val android = "com.android.tools.build:gradle:${PluginVersions.androidPlugin}"
     const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${PluginVersions.kotlinPlugin}"
+    const val googleServices = "com.google.gms:google-services:${PluginVersions.googleServices}"
     const val dexcount = "com.getkeepsafe.dexcount:dexcount-gradle-plugin:${PluginVersions.dexcountPlugin}"
 }
 
@@ -54,6 +57,9 @@ object Libraries {
     const val rxJava = "io.reactivex.rxjava2:rxjava:${LibsVersions.rxJava}"
     const val rxAndroid = "io.reactivex.rxjava2:rxandroid:${LibsVersions.rxAndroid}"
     const val rxKotlin = "io.reactivex.rxjava2:rxkotlin:${LibsVersions.rxKotlin}"
+
+    // firebase
+    const val firebaseAnalytics = "com.google.firebase:firebase-analytics:${LibsVersions.firebaseAnalytics}"
 
     // testing
     const val mockk = "io.mockk:mockk:${LibsVersions.mockk}"

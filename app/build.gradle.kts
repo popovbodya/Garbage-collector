@@ -3,6 +3,7 @@ plugins {
     kotlin("android")
     kotlin("kapt")
     id("com.getkeepsafe.dexcount")
+    id ("com.google.gms.google-services")
 }
 
 android {
@@ -10,7 +11,7 @@ android {
     compileSdkVersion(AndroidVersions.compileSdk)
 
     defaultConfig {
-        applicationId = "ru.popov.bodya.garbagecollector"
+        applicationId = "ru.popovbodya.garbagecollector"
         minSdkVersion(AndroidVersions.minSdk)
         targetSdkVersion(AndroidVersions.targetSdk)
         versionCode = AndroidVersions.appVersionCode
@@ -52,5 +53,9 @@ dependencies {
     implementation(Libraries.rxAndroid)
     implementation(Libraries.rxKotlin)
 
+    // firebase
+    implementation(Libraries.firebaseAnalytics)
+
+    // testing
     testImplementation("junit:junit:4.12")
 }
