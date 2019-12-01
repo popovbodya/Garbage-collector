@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/popovbodya/Garbage-collector.svg?branch=master)](https://travis-ci.com/popovbodya/Garbage-collector)
+
 ![Challenge Promo](assets/promo.gif)
 
 # Garbage-collector
