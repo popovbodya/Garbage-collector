@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
+        android:name=".app.GarbageCollectorApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_terrain_green_24dp"
         android:label="@string/app_name"
@@ -12,10 +13,10 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
