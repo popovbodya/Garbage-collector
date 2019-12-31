@@ -57,5 +57,11 @@ dependencies {
     implementation(Libraries.firebaseAnalytics)
 
     // testing
-    testImplementation("junit:junit:4.12")
+    testImplementation(Libraries.junit)
+    testImplementation(Libraries.mockk)
+    testImplementation(Libraries.assertK)
+
+    // developer tools
+    implementation(Libraries.timber)
+    implementation(Libraries.leakCanary)
 }

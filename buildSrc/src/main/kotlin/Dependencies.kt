@@ -11,10 +11,10 @@ object AndroidVersions {
 }
 
 object PluginVersions {
-    const val androidPlugin = "3.5.2"
-    const val kotlinPlugin = "1.3.50"
-    const val googleServices = "4.3.2"
+    const val androidPlugin = "3.5.3"
+    const val kotlinPlugin = "1.3.61"
     const val dexcountPlugin = "1.0.0"
+    const val googleServices = "4.3.3"
 }
 
 object LibsVersions {
@@ -22,13 +22,16 @@ object LibsVersions {
     const val appCompat = "1.1.0"
     const val lifecycle = "2.1.0"
     const val constraintLayout = "1.1.3"
-    const val dagger = "2.25.2"
-    const val rxJava = "2.2.15"
+    const val dagger = "2.25.3"
+    const val rxJava = "2.2.16"
     const val rxAndroid = "2.1.1"
     const val rxKotlin = "2.4.0"
     const val firebaseAnalytics = "17.2.1"
-    const val mockk = "1.9"
-    const val assertK = "0.12"
+    const val junit = "4.12"
+    const val mockk = "1.9.3.kotlin12"
+    const val assertK = "0.20"
+    const val timber = "4.7.1"
+    const val leakCanary = "2.0"
 }
 
 object GradlePlugins {
@@ -62,6 +65,11 @@ object Libraries {
     const val firebaseAnalytics = "com.google.firebase:firebase-analytics:${LibsVersions.firebaseAnalytics}"
 
     // testing
+    const val junit = "junit:junit:${LibsVersions.junit}"
     const val mockk = "io.mockk:mockk:${LibsVersions.mockk}"
     const val assertK = "com.willowtreeapps.assertk:assertk-jvm:${LibsVersions.assertK}"
+
+    // developer tools
+    const val timber = "com.jakewharton.timber:timber:${LibsVersions.timber}"
+    const val leakCanary = "com.squareup.leakcanary:leakcanary-android:${LibsVersions.leakCanary}"
 }
